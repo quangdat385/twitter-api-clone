@@ -39,4 +39,4 @@ jobs:
             docker pull quangdat385/twitter:v0
             docker stop twitter-clone
             docker rm twitter-clone
-            docker run -dp 3000:3000 --name twitter-clone --restart unless-stopped -v ~/twitter-clone/uploads:/app/uploads quangdat385/twitter:v0
+            docker run -dp 4000:4000 --name twitter-clone --restart unless-stopped -v ~/twitter-clone/uploads:/app/uploads quangdat385/twitter:v0
